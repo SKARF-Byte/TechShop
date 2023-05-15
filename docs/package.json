@@ -1,7 +1,7 @@
 {
   "name": "skarfbyte.com",
   "version": "0.1.0",
-  "homepage": "http://skarfbyte.com/",
+  "homepage": "https://skarf-byte.github.io/TechShop/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
