@@ -5,8 +5,8 @@
 }
 
 .home-page-tab-bar {
-    background-color: blanchedalmond;
-    display: flex;
+    background-color: #FCEDDA;
+    /* display: flex; */
     align-items: center;
 }
 
@@ -15,14 +15,20 @@
     display: flex;
     list-style: none;
     flex-grow: 1;
-    justify-content: space-between;
-    margin-inline: 10%;
+ }
+
+li {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    border:1px solid rgb(255, 255, 255);
 }
 
 .nav-menu li a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
+    color: black
 }
 
   
@@ -35,14 +41,18 @@
 
 /* Mobile Styles */
 @media (max-width: 480px) {
-    ul.nav-menu {
+    .nav-menu {
         flex-direction: column;
         font-size: 12px;
+    }
+
+    .nav-menu li a {
+        font-size: 16px;
     }
 }
 
 .coming-soon {
-    border: 5px solid;
+  border: 5px solid;
   position: absolute;
   top: 50%;
   left: 50%;
