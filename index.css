@@ -1,36 +1,4 @@
 
-.homepage-logo {
-    aspect-ratio: 1 / 1;
-    width: 200px; 
-}
-
-.home-page-tab-bar {
-    background-color: #FCEDDA;
-    /* display: flex; */
-    align-items: center;
-}
-
-
-.nav-menu {
-    display: flex;
-    list-style: none;
-    flex-grow: 1;
- }
-
-li {
-    flex-grow: 1;
-    flex-basis: 0;
-    padding: 10px;
-    border:1px solid rgb(255, 255, 255);
-}
-
-.nav-menu li a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    color: black
-}
-
   
 /* Tablet Styles */
 @media (max-width: 768px) {
@@ -51,11 +19,107 @@ li {
     }
 }
 
-.coming-soon {
-  border: 5px solid;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #090E1F;
+  }
+
+  .container_row{
+    display: grid;
+    justify-content: center;
+  }
+  
+  .layer1, .layer2{
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .logo-main {
+    position: absolute;
+  }
+  
+  .lines {
+    position: absolute;
+  }
+
+  .centered-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #lines-section {
+    margin-top: 200px;
+  }
+
+  .primaryText {
+    color: white;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+  }
+
+  .secondaryText {
+    color: white;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 162.84%;
+    /* or 39px */
+    text-align: center;
+  }
+  
+  #parent {
+    position: relative;
+  }
+
+  #child {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+   
+  }
+
+  #child-2 {
+    position: absolute;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #child-3 {
+    position: absolute;
+    margin-top: 290px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-with-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-with-text img {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  #child-4 {
+    position: absolute;
+    margin-top: 520px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #child-5 {
+    position: absolute;
+    margin-top: 620px;
+    display: flex;
+    justify-content: center;
+    width: 640px;
+  }
