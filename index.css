@@ -165,8 +165,8 @@
 /* Mobile styles */
 @media screen and (max-width: 767px) {
   .primaryText {
-    font-size: 30px;
-    line-height: 90px;
+    font-size: 20px;
+    line-height: 80px;
   }
   .secondaryText {
     font-size: 18px;
@@ -191,7 +191,7 @@
   }
 
   #child-3 {
-    margin-top: 200px;
+    margin-top: 215px;
   }
   #child-4 {
     margin-top: 320px;
@@ -391,4 +391,8 @@ body {
   .email-field:focus ~ .placeholder,
   .email-field:valid ~ .placeholder {
     display: none;
+  }
+
+  #animated-line {
+    animation: svgAnimation 2s linear infinite;
   }
